@@ -30,7 +30,7 @@ We'll introduce a new prop for `Item` component: `onToggleIsComplete`. It will c
 
 We'll add a new unit test for reducer.
 
-# Task 3: Add a filter than can be toggled to hide completed items.
+## Task 3: Add a filter than can be toggled to hide completed items.
 
 This means we'll need to add a new state to our app. This state is not related to individual items, but it rather affects the entire app. Hence we'll create a new reducer called `filters`. This reducer will have a single state property: `isHideComplete`. We'll add a new action type and a new action creator for it. We'll write a unit test for `filters` reducer as well.
 
